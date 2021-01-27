@@ -1,0 +1,50 @@
+@charset "Utf-8";
+
+body {
+    background-color: #cf6a87;
+    width: 100%;
+}
+
+header {
+    height: 250px;
+    background-color: #c44569;
+
+}
+
+nav {
+    background-color: #a13b58;
+    height: 100px;
+}
+
+section {
+    min-height: 400px;
+    background-color: #778beb;
+    display:flex;
+    
+}
+
+main {
+    height:600px;
+    width:60%;
+    background-color: #e66767;
+
+}
+
+aside {
+    background-color: #e28787;
+    width: 20%;
+    height:600px;
+}
+
+article {
+    background-color: #e28787;
+    width:20%;
+    height:600px;
+}
+
+footer {
+    background-color: #a13b58;
+    height: 200px;
+}
+
+

@@ -1,0 +1,385 @@
+@charset "UTF-8";
+/* Återanvändbara klasser */
+.addflex {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    display:flex;
+    width:100%;
+    height:120px;
+    background-color: #5B428F;
+    
+}
+
+.logo {
+    padding-right: 50px;
+}
+
+.searchbar{
+    transition: width .3s ease-in-out;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.searchbar:focus {
+   width: 300px;
+}
+
+
+.text {
+   justify-content: center;
+   flex: 3;
+   gap: 4em;
+   font-family: sans-serif;
+
+}
+.text h1 {
+    font-size:50px;
+    margin-left:-50px;
+}
+
+.spancine {
+    color:#F56D58;
+}
+
+.spanre {
+    color:#262833;
+}
+
+.spanport {
+    color:#FFD58C;
+}
+
+.text p {
+    font-size: medium;
+    color:#FFD58C;
+    font-weight: bold;
+}
+
+.rate {
+    width:50px;
+    height: 20px;
+    background-color:#262833;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.rate p:hover {
+    color: #F56D58;
+    cursor:pointer;
+}
+
+.text p:hover {
+color:#F56D58;
+cursor: pointer;
+}
+
+
+main {
+    height: 450px;
+    width:100%;
+    background-image: url(../images/Matt/Mars.jpg);
+
+    background-size: cover;
+
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.leftside {
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.leftside section {
+    height: 250px; 
+    width: 450px;
+    background-color:#F56D58;
+
+    background-image: url();
+
+    margin-left: 5%;
+    border-radius:10px;
+}
+
+.leftside h2 {
+    font-size: 70px;
+    margin: 10% 0% 5% 10%;
+}
+
+.leftside section p {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-indent: 30px;
+    text-align: center;
+}
+
+main aside {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    background-color: black;
+    background-image: url(../images/Matt/Matt\ Damon.jpg);
+    border: 4px solid black;
+    margin: 80px 80px 0px 0px; 
+
+}
+
+.info {
+    height: 100px;
+    width:200px;
+    background-color: #F56D58;
+    background-image: none;
+    margin: 5px 0px 0px 0px
+}
+
+.info h2 {
+    text-align: center;
+    font-size: 15px;
+    margin: 3px 0px;
+    font-family: sans-serif;
+}
+.info ul {
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+.leftside h2 {
+    color:black;
+    font-family: sans-serif;
+
+}
+
+
+.damon {
+    width:100%;
+    height:250px;
+    background-color: #383c57;
+    margin-top: -20px;
+}
+
+.flexchildren {
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flexchildren section {
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.flexchildren section img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.flexchildren section img:hover {
+    transform:translateY(-10px);
+    filter:brightness(50%);
+    cursor:pointer;
+}
+
+
+.damon h2 {
+    color:#F56D58;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    margin:0px 0px 3px 0px;
+}
+
+.damon p {
+    color: #F56D58;
+    font-family: sans-serif;
+}
+
+
+
+
+/* Footer hämtad från webdevtrick */
+
+footer{
+	position: static;
+    bottom: 0;
+    padding-top: 40px;
+}
+.footer-distributed{
+	background-color: #5B428F;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  rgba(255, 255, 255, 0.568);
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+

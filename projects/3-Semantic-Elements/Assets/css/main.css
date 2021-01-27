@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    background-color: seagreen;
+    
+    
+}
+header {
+    background-color: rgb(88, 199, 88);
+    height: 200px;
+    padding: 20px; 
+    margin-bottom:20px;
+
+
+}
+
+header h1 {
+    color:White;
+    font-size: 52px;
+    font-weight:100;
+    margin-bottom:0px;
+
+}
+
+header p {
+    color:White;
+    font-size:26px;
+    font-weight:100;
+    margin-top:0px;
+
+}
+
+main {
+    min-height: 800px;
+    background-color: rgb(255, 196, 0);
+    display:flex;   /* Parent is a flex-container */
+    flex-direction: ; /* Main axis*/
+    flex-wrap: wrap;
+    justify-content:; /* Aligns flex items along the main axis*/ 
+    align-items: stretch ; /* Aligns flex items along the cross axis*/ 
+
+}
+
+main section:nth-child(odd) {
+    background-color: hotpink;
+}
+
+
+
+main section { /*Parent is a flex--container and we are flex items*/
+flex: 1;
+background-color:red;
+
+}
+
+main section:nth-child(1) {
+    flex: 1;
+}
+
+main section:nth-child(2) {
+    flex: 4;
+}
+
+footer {
+    background-color: rgb(87, 198, 87);
+    display: flex; 
+    justify-content: space-between;
+    height: 200px;
+}
+
+footer section {
+    background-color: tomato;
+    flex: 1; 
+    border-right: 1px solid white;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+}
+
+footer section ul {
+    list-style: none;
+    padding: 0px;
+}
+
+footer section a {
+color: white;
+text-decoration: none;
+}
+
+footer section a:hover {
+    color: green; 
+    font-size: 50px;  
+    background-color: black; 
+}
