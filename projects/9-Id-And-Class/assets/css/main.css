@@ -1,18 +1,39 @@
 @charset "utf-8";
 /* . = class */
+
+body {
+    background-color: #f1f1f1;
+}
+
+
 .box {
-    width:200px;
-    height: 200px;
-    background-color: rgb(10, 143, 143);
-}
-/*camel case */
-.emptySpace {
-    width: 200px;
-    height: 200px;
+    width:100px;
+    height: 100px;
 
+
+    background-color: coral;
 }
 
-.roundedCorners {
-    border-radius: 7px;
-    
+#unique {
+    height: 100px;
+    width: 100px; 
+
+
+    background-color: cadetblue;
+}
+
+
+/* Utility Classes (reusable classes) */
+
+.m-1 {
+    margin:10px;
+}
+
+
+.rounded-5 {
+    border-radius: 5px;
+}
+
+.rounded-10 {
+    border-radius: 10px;
 }
