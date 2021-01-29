@@ -3,7 +3,7 @@
 .box {
     width:200px;
     height: 200px;
-    background-color: teal;
+    background-color: rgb(10, 143, 143);
 }
 /*camel case */
 .emptySpace {
