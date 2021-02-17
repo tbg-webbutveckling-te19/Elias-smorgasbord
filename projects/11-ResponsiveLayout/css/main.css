@@ -27,6 +27,8 @@ nav ul {
     justify-content: space-evenly;
     font-size: 22px;
 
+    cursor:pointer;
+
 }
 
 header h1 {
