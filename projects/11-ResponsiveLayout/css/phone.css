@@ -1,10 +1,16 @@
 @charset "utf-8";
 
+body {
+    overflow: hidden;
+}
+
+
 
 header {
     padding:0px;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 header h1 {
@@ -16,3 +22,36 @@ nav {
 }
 
 
+.mobilemenuicon {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right:0px;
+    margin: 20px;
+}
+
+
+
+.mobilemenu {
+    display: block;
+    margin-top: 70px;
+    padding: 10px;
+    width: 40%;
+
+    margin-left: 700px;
+    transition: all .4s;
+}
+
+#checkboxhack:checked ~ .mobilemenu {
+    margin-left: 300px;
+}
+
+.mobilemenu li {
+    border-bottom: 1px solid black;
+}
+
+
+.mobilemenu ul {
+    flex-direction: column;
+    align-items:center;
+}
