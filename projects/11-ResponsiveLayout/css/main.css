@@ -79,8 +79,54 @@ main {
 .main-center {
     background-color: #5f6c7e;
     flex:4;
+
+    justify-content: center;
 }
 
+.herotext {
+    width: 300px;
+    height: 375px;
+}
+
+.herotext h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.herotext p {
+    font-weight: 500;
+}
+
+.herolist {
+    margin-top: 15px;
+}
+
+.interested {
+    margin-top: 15px;
+}
+.heroimage {
+    width: 250px;
+    height: 375px;
+    border-radius: 5px;
+    background-image: url(../images/hero-office-image.jpg);
+}
+
+
+/* .contactbutton {
+    width: 70px;
+    height:20px;
+
+    background-color: #007af3;
+} */
+
+
+.main-right p {
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+    border: 2px solid #fbfbfb;
+}
 
 footer {
     width:100%;
@@ -97,4 +143,12 @@ footer {
 
 .active {
     font-weight: bold;
+}
+
+.margin30 {
+    margin:30px;
+}
+
+.textcolor {
+    color: #fbfbfb;
 }
