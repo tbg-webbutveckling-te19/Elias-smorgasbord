@@ -55,7 +55,7 @@ input[type="checkbox"] {
 
 header {
     width: 100%;
-    height:170px;
+    height:200px;
 
     padding: 0px 200px;
     background-color: #dfdfdf;
@@ -102,13 +102,6 @@ main {
 .interested {
     margin-top: 15px;
 }
-/* .heroimage {
-    width: 250px;
-    height: 375px;
-    border-radius: 5px;
-    background-image: url(../images/hero-office-image.jpg);
-    margin: 30px 50px;
-} */
 
 .main-center-parent {
     height: auto;
@@ -147,12 +140,28 @@ main {
     height: 38px;
     font-size: 15px;
     font-weight: bold;
-    background-color: #007af388;
+    background-color: #007af3;
     border: 2px solid white;
     box-shadow: none;
     border-radius: 5px;
     color:white;
     cursor: pointer;
+}
+
+
+.help {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.list {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top:50px;
+    list-style-image: url(../lib-icons/Icon\ ionic-ios-checkmark-circle.svg);
+
 }
 
 footer {

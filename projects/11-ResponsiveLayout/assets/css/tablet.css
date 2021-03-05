@@ -19,6 +19,10 @@ nav {
     flex: 0;
 }
 
+nav ul {
+    padding-bottom: 50px;
+}
+
 
 main {
     flex-direction: column;
@@ -38,4 +42,24 @@ main {
 
 .main-right {
     order:3;
+}
+
+
+.cta {
+    width:400px;
+}
+.cta button {
+    width: 200px;
+}
+
+.infoicon {
+    margin-left: 60px;
+}
+
+.learnmore {
+    font-size: 22px;
+}
+
+.tablet {
+    font-size: 20px;
 }

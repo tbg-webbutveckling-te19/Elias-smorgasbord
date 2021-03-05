@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    margin: 0px;
+    margin-bottom: 15px;
 }
 
 nav {
@@ -54,4 +54,27 @@ nav {
 .mobilemenu ul {
     flex-direction: column;
     align-items:center;
+}
+
+.cta {
+    width:500px;
+}
+.cta button {
+    width: 200px;
+    height: 60px;
+}
+
+.learnmore {
+    font-size: 25px;
+}
+
+.help {
+    margin-top: -50px;
+}
+
+.list
+{
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
 }
