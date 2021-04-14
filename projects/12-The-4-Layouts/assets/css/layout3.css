@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 body {
     background-color:#F27405;
     margin: 0px;
@@ -46,6 +47,12 @@ header {
     text-align: center;
     color: white;
     font-family: sans-serif;
+
+    cursor: pointer;
+}
+
+.nav section:hover {
+    border: 2px solid white;
 }
 
 
@@ -55,7 +62,37 @@ article {
     width: 100%; 
     height: 450px;
     background-color: #d16405;
+    background-image: url(../images/Hero-image.jpg);
+    background-size: cover;
+
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+article p {
+    font-size: 50px;
+}
+
+.herotextbox {
+    height: auto;
+    width: auto;
+    background-color: #ffffffbb;
+    padding: 0px 15px 0px 15px;
+}
+
+
+aside img {
+    size: 50%;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+
+aside img:hover {
+    opacity: 100%;
+}
+
+
 
 .gallery {
     width: 70%; 
@@ -74,16 +111,65 @@ article {
     width: 200px;
     height: 200px;
 }
+
+.container p {
+    color: white;
+}
+
 .box {
     height: 150px;
     width: 150px;
     background-color: #d16405;
 }
 
+.box:hover {
+    opacity: 70%;
+    cursor: pointer;
+    border: 4px solid black;
+    transition: all .2s;
+}
+
+.container:nth-child(1) .box {
+    background-image: url(../images/U2\ -\ Songsofexperience.jpg);
+    background-size: cover;
+}
+
+.container:nth-child(2) .box {
+    background-image: url(../images/Coldplay\ -\ Ghoststories.jpg);
+    background-size: cover;
+}
+
+.container:nth-child(3) .box {
+    background-image: url(../images/Coldplay\ -\ Parachutes.jpg);
+    background-size: cover;
+}
+
+.container:nth-child(4) .box {
+    background-image: url(../images/Kraftwerk-Therobots.jpg);
+    background-size: cover;
+}
+.container:nth-child(5) .box {
+    background-image: url(../images/U2\ -\ Joshuatree.jpg);
+    background-size: cover;
+}
+.container:nth-child(6) .box {
+    background-image: url(../images/Fleetwood\ Mac-\ Thedance.jpg);
+    background-size: cover;
+}
+.container:nth-child(7) .box {
+    background-image: url(../images/Coldplay\ -X&Y.jpeg);
+    background-size: cover;
+}
+.container:nth-child(8) .box {
+    background-image: url(../images/Toto-Live.jpg);
+    background-size: cover;
+}
+
 footer {
     height: 250px; 
     width: 100%;
-    background-color: #4BA69D;
+    background-color:#d16405;
+    margin-top: 15px;
 }
 
 .footercontainer {
@@ -101,11 +187,14 @@ footer {
     width: 20%;
     height: 190px;
     background-color: #d16405;
-    border: 3px solid black;
     margin-top: 40px;
+    color: white;
 }
 
-
+.socialmedia {
+    flex-direction: row;
+    gap: 15px;
+}
 
 
 
@@ -120,3 +209,4 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
