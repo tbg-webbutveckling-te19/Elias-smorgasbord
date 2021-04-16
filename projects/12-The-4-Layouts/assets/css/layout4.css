@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+body {
+    background-color: #D8A675;
+}
+
+
+.topnav {
+    justify-content: flex-end;
+    gap: 20px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.signin {
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.searchbar {
+    height: 10px;
+}
+
+
+
+
+/* Reusable Classes */
+.addflex {
+    display: flex;
+}
