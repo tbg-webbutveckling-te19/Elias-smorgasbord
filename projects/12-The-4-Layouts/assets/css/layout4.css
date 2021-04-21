@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-
+* h2 {
+    color: white;
+}
 body {
     background-color: #D8A675;
 }
@@ -13,7 +15,7 @@ body {
     align-items: center;
 }
 
-.signin {
+.inputsearch {
     align-items: center;
     flex-direction: row;
     gap: 10px;
@@ -25,9 +27,131 @@ body {
 }
 
 
+header {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.left {
+    flex: 1.5; 
+    background-color:#764D21;
+}
+
+.middle {
+    flex: 4.5;
+    background-color: #764D21;
+}
+
+.right {
+    flex: 1.5;
+    background-color:#764D21;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid #260300;
+    margin: 20px 0px 20px 0px;
+    font-weight: 500;
+}
+
+
+.main {
+    gap: 16px;
+    height: 500px;
+}
+
+/* Left Article  */
+
+article p {
+    color: white;
+    text-align: center;
+}
+
+.boxntextparent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+.boxntext {
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    background-color: #A36E3C;
+}
+
+.left p {
+    margin-bottom: 35px;
+}
+
+.boxntext p {
+    font-size: 10px;
+}
+
+
+.text {
+    border: 1px solid white;
+    width: 100px;
+    height: 80px;
+}
+
+/* Middle Article */
+
+.middle {
+    justify-content: space-evenly;
+    align-items: center;
+}
+.middletextnbox {
+    height: 315px;
+    width: 640px;
+    border: 3px solid white;
+    margin-bottom: 100px;
+
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.middletext {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border: 2px dotted white;
+    margin-top: 25px;
+}
+
+.middlebox {
+    border: 2px dotted black;
+    margin-top: 25px;
+}
+
+.image {
+    width: 270px;
+    height: 200px;
+    background-color: black;
+}
 
 
 /* Reusable Classes */
 .addflex {
     display: flex;
+}
+
+.height150 {
+    height: 150px;
+}
+
+.column {
+    flex-direction: column;
 }
