@@ -22,8 +22,8 @@ body {
 }
 
 .logo {
-    height: 140px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
     margin-top: 50px;
     background-color:#415AA6;
     border-radius: 100%;
@@ -43,6 +43,8 @@ body {
 .login {
     flex-direction: column;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .username, .password {
@@ -50,24 +52,54 @@ body {
     width: 300px;
     background-color: #415AA6;
     border-radius: 25px;
+    outline: none;
 }
 
 .username {
-    margin-top: 100px;
+    margin-top: 50px;
 }
-
-
-.aroundforgot {
-    justify-content: flex-end;
-}
-
 
 .forgot {
+    width: 100vw;
     font-family: 'Open Sans', sans-serif;
     opacity: 70%;
+    justify-content: flex-end;
+    margin-right: 130px;
 }
 
+.forgot p {
+    display: inline;
+}
 
+.signinbutton {
+    height: 30px;
+    width: 310px;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 7px;
+}
+.signinbutton p {
+    font-family:'Open Sans', sans-serif;
+    font-size: 17px;
+    text-decoration: underline;
+}
+.signinbutton img {
+    width: 20%;
+}
+
+.create {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+.createaccount {
+    margin-top: 20px;
+}
+.createaccount p {
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 
