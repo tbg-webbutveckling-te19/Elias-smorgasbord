@@ -21,7 +21,8 @@ body {
 .goodmorning {
     width: 100vw;
     height: 40vh;
-    background-color: #7292F2;
+    /* background-color: #7292F2; */
+    background-image: linear-gradient(to bottom right, #7292F2, #1C2B59);
     flex-direction: column;
 }
 
@@ -55,12 +56,33 @@ body {
     left: 30px;
 }
 
-/* .latestplayed:nth-child(1) { 
+
+.playbutton {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+
+.latestplayed section:nth-child(1) { 
+    background-size: 200px 130px;
+    background-image: url(../images/TOTO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latestplayed section:nth-child(2) { 
     background-size: 200px 130px;
     background-image: url(../images/karsten-winegeart-X2reytV0chs-unsplash.jpg);
-} */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.latestplayed section:nth-child(3) { 
+    background-size: 200px 130px;
+    background-image: url(../images/edm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-/* KOLLA DETTA */
+
 
 
 .latestplayed section:nth-child(2) {
@@ -114,16 +136,14 @@ body {
     flex-direction: column;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
 }
-
 
 .vinyl {
     height: 80px;
     width: 80px;
     border-radius: 100%;
     background-color: black;
-    
 }
 
 .hole {
@@ -159,8 +179,24 @@ body {
 
 
 
+.vinyltop {
+    background-image: url(../images/concert.jpg);
+    background-size: cover;
+}
 
 
+.vinylbottom {
+    background-image: url(../images/piano.jpg);
+    background-size: cover;
+}
+
+.artistparent {
+    width: 100px;
+    height: 100%;
+    flex-direction: row;
+    font-weight: 500;
+    opacity: 90%;
+}
 
 
 

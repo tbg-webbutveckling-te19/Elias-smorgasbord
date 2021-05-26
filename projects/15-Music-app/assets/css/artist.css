@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.headparent {
+    flex-direction: column;
+}
+
+.artist {
+    width: 100%;
+    height: 812px;
+    background-color: tomato;
+    position: relative;
+}
+
+.artistimage {
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/Coldplay.jpeg);
+    background-size: cover;
+    position: absolute;
+}
+
+.popularsongs {
+    height: 350px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #7292F2, #1C2B59);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.coldplay {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+/* Reusable Classes */
+.addflex {
+    display: flex;
+}
