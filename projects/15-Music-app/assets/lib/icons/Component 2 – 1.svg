@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(1.5 1.5)">
+    <g id="Icon_feather-play-circle" data-name="Icon feather-play-circle" transform="translate(-3 -3)">
+      <path id="Path_5" data-name="Path 5" d="M33,18A15,15,0,1,1,18,3,15,15,0,0,1,33,18Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Path_6" data-name="Path 6" d="M15,12l9,6-9,6Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="matrix(0.017, 1, -1, 0.017, 21.184, 9.504)" fill="#fff">
+      <path d="M 9.190984725952148 9.5 L 0.8090149760246277 9.5 L 5 1.118029952049255 L 9.190984725952148 9.5 Z" stroke="none"/>
+      <path d="M 5 2.236070156097412 L 1.618035316467285 9 L 8.381964683532715 9 L 5 2.236070156097412 M 5 0 L 10 10 L 0 10 L 5 0 Z" stroke="none" fill="#fff"/>
+    </g>
+  </g>
+</svg>
