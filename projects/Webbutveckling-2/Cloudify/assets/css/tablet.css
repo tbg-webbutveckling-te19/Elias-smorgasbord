@@ -1,0 +1,53 @@
+.left {
+    width: 55%;
+}
+
+.herotext {
+    font-size: 50px;
+}
+
+.clouds {
+    width: 80%;
+    margin-right: 20%;
+}
+
+.icons {
+    display: none;
+}
+
+.iconstablet {
+    display: block;
+    width: 72%;
+    margin-left: 3%;
+}
+
+.slogan {
+    display: none;
+}
+
+.slogantablet {
+    display: block;
+    margin-left: 15%;
+    font-size: 18px;
+}
+
+
+.learnmore {
+    background-color: #39658C;
+    width: 75%;
+    height: 60px;
+}
+
+.learnmore h2 {
+    color: white;
+}
+
+.alreadycustomer {
+    display: none;
+}
+
+
+.altitudetablet {
+    display: block;
+    margin-right: 3%;
+}

@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(#4B86B9,#7672B4);
+}
+
+header {
+    height: 115px;
+    /* border: 2px solid white; */
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+    height: 100%;
+    width: 250px;
+
+    gap: 10px;
+
+    margin-left: 35px;
+}
+
+.logo img {
+    height: 50%;
+}
+
+.home {
+    text-decoration: underline;
+}
+
+
+.navigation {
+    gap: 80px;
+}
+
+.getstarted {
+    height: 40px;
+    width: 160px;
+    border-radius: 30px;
+
+    background-color: #39658C;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.getstarted p {
+    color: #F2CF63;
+}
+
+.account {
+    height: 100%;
+    width: auto;
+    align-items: center;
+    gap: 30px;
+
+    margin-right: 50px;
+}
+
+.accountimg {
+    height: 40%;
+}
+
+
+.herotext {
+    font-size: 60px;
+}
+
+.left {
+    width: 50%;
+    flex-direction: column;
+    margin: 20px 0px 0px 100px;
+    gap: 30px;
+}
+
+.slogan {
+    margin-top: -15px;
+}
+
+
+.learnmore {
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+
+
+    align-items: center;
+    justify-content: center;
+}
+
+.learnmore h2 {
+    color: #68788C;
+}
+
+.login {
+    text-decoration: underline;
+    color: #F2CF63;
+}
+
+.hero {
+    justify-content: space-evenly;
+}
+
+
+.right {
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    /* border: 2px solid black; */
+
+    margin-top: 2%;
+}
+
+
+.clouds {
+    width: 60%;
+}
+
+.cloudsandicons {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.icons {
+    width: 60%;
+    margin-top: 7%;
+}
+
+
+
+.altitudetablet {
+    display: none;
+}
+
+
+
+/* Buttons:hover */
+
+.hover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.getstarted:hover {
+    font-weight: bold;
+    color: rgb(242, 207, 99);
+    cursor: pointer;
+}
+
+.learnmore:hover h2 {
+    cursor: pointer;
+    font-size: 1.6em;
+    color: #2A5DB5;
+}
+
+.learnmore:hover {
+    cursor: pointer;
+}
+
+.login:hover {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.accountimg:hover { 
+    height: 41%;
+    cursor: pointer;
+}
+
+
+
+/* Reusable Classes */
+
+.addflex {
+    display: flex;
+}
+
+.bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.light {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.regular {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.iconstablet {
+    display: none;
+}
