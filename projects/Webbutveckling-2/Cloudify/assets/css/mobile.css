@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* Display none */
+
+.home {
+    display: none;
+}
+
+.whyus {
+    display: none;
+}
+
+.priceplan {
+    display: none;
+}
+
+.getstarted {
+    display: none;
+}
+
+.altitudetablet {
+    display: none;
+}
+
+.right {
+    display: none;
+}
+
+.logo {
+    display: none;
+}
+
+.headerdesktop {
+    display: none;
+}
+
+.addflexmobile {
+    display: flex;
+}
+
+
+.iconlogomobile {
+    width: 60%;
+}
+
+
+
+
+
+.headermobile {
+    display: block;
+    height: 80px;
+    background-color: #39658C;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logomobile {
+    align-items: center;
+    height: 100%;
+    width: 250px;
+
+    gap: 10px;
+
+    margin-left: 35px;
+}
+

@@ -143,6 +143,12 @@ header {
     display: none;
 }
 
+.cloudstablet {
+    display: none;
+}
+
+
+
 
 
 /* Buttons:hover */
@@ -204,6 +210,16 @@ header {
     color: white;
 }
 
+/* Display none tablet/phone */
+
 .iconstablet {
+    display: none;
+}
+
+.slogantablet {
+    display: none;
+}
+
+.mobileheader {
     display: none;
 }
