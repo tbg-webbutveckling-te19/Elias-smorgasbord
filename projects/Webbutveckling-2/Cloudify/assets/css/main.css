@@ -33,6 +33,7 @@ header {
     height: 50%;
 }
 
+
 .home {
     text-decoration: underline;
 }
@@ -220,6 +221,10 @@ header {
     display: none;
 }
 
-.mobileheader {
+.logomobile {
+    display: none;
+}
+
+.headermobile {
     display: none;
 }
