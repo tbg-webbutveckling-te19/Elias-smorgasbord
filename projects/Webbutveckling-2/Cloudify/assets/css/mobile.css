@@ -40,8 +40,12 @@
 
 .iconlogomobile {
     width: 80%;
+    margin-left: 15%;
 }
 
+.altitudetablet {
+    display: none;
+}
 
 
 
@@ -72,7 +76,8 @@
 }
 
 .herotext {
-   font-size: 27px;
+   font-size: 30px;
+   margin: auto;
 }
 
 body {
@@ -82,11 +87,74 @@ body {
 }
 
 .hero {
+    min-height: 100vh;
     margin-top: 10%;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .left {
     width: 80%;
+    margin: 20px 0px 0px 0px;
+}
+
+.slogantablet {
+    margin: auto;
+    margin-top: 40%;
+}
+
+.iconstablet {
+    display: none;
+}
+
+.iconsmobile {
+    display: block;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.learnmore {
+    width: 100%;
+}
+
+.mobilefooter {
+    display: flex;
+    flex-direction: column;
+    background-color: #7672B4;
+    height: 20%;
+    margin-top: -118px;
+}
+
+.footerline {
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.contacticons {
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 12%;
+}
+
+.footerinfo {
+    height: 100%;
+    margin-top: -10%;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+}
+
+.boldmobile {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.homemobile {
+    text-decoration: underline;
 }

@@ -41,6 +41,7 @@ header {
 
 .navigation {
     gap: 80px;
+    font-size: 1.5vw;
 }
 
 .getstarted {
@@ -226,5 +227,13 @@ header {
 }
 
 .headermobile {
+    display: none;
+}
+
+.iconsmobile {
+    display: none;
+}
+
+.mobilefooter {
     display: none;
 }
