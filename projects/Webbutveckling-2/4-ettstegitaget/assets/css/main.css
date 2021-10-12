@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: #CBA4FD;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.luffarshack-container {
+    width: 50%;
+    height: 75%;
+
+    margin: auto;
+
+    display: grid;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    border: 2px solid white;
+
+    
+}
+
+.luffarshack-item {
+    border-right: 2px solid white;
+}
+
+
+
+
+/* reusable classes */
+.addflex {
+    display: flex;
+}
