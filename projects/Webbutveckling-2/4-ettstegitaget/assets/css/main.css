@@ -1,80 +1,89 @@
 @charset "UTF-8";
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html {
-    height: 100%;
-}
 body {
-    background-color: #CBA4FD;
+    background-color: #979DA6;
     height: 100%;
     width: 100%;
-    justify-content: center;
 }
 
-.luffarshack-container {
-    width: 50%;
-    height: 75%;
-
-    margin: auto;
-
+.container {
     display: grid;
-    
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
 
-    
+    grid-template-areas: 
+    "text b b"
+    "c portfolio ."
+    "d d luffarschack";
+    gap: 5%;
 }
 
-.luffarshack-item {
-    border: 2px solid white;
+.text {
+    grid-area: text;
+}
+.luffarschack {
+    background-color: #68788C;
+    grid-area: luffarschack;
+    margin-right: 10%;
+}
 
+.portfolio {
+    background-color: #F2E205;
+    grid-area: portfolio;
     align-items: center;
     justify-content: center;
 }
 
-.luffarshack-item:nth-child(1),:nth-child(4),:nth-child(7) {
-    border-left: none;
-    border-top: none;
-}
-.luffarshack-item:nth-child(2),:nth-child(8) {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
-}
-.luffarshack-item:nth-child(3), :nth-child(6), :nth-child(9) {
-    border-top: none;
-    border-right: none;
-}
-.luffarshack-item:nth-child(7),:nth-child(9) {
-    border-bottom: none;
-}
-.luffarshack-item:nth-child(5) {
-    border-left: none;
-    border-right: none;
-    border-top: none;
+.portfolio a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2a2f36;
+    font-family: 'Bebas Neue', cursive;
 }
 
-.luffarshack-item:nth-child(2) {
-    border-bottom: 2px solid white;
+.p {
+    margin: auto;
 }
 
-h2 {
-    font-size: 50px;
-    color: white;
+/* Hover */
+
+.portfolio:hover {
+    opacity: 70%;
 }
 
+.luffarschack:hover {
+    opacity: 70%;
+}
 
-
-
-
-
-
-/* reusable classes */
+/* Reusable Classes */
 .addflex {
     display: flex;
+}
+
+
+
+
+.bold {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-left: 15%;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #2a2f36;
+    font-family: 'Bebas Neue', cursive;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

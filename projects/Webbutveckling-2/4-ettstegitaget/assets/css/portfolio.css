@@ -107,3 +107,9 @@ body {
     opacity: 60%;
     cursor:pointer;
 }
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    margin: 15px;
+}
