@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+}
+#userInput {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    margin: auto;
+    display: block;
+}
+
+body {
+    background-color:cadetblue;
+}
+
+#showSubject {
+    text-align: center;
+    padding: 10px;
+}
+
+#square {
+    width: 50px;
+    height: 50px;
+
+    background-color: black;
+}
+
+#draw {
+    height: 50px;
+    width: 150px;
+    outline: none;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#congratsText {
+    width: 300px;
+    height: 400px;
+}
