@@ -1,0 +1,14 @@
+
+body {
+    background-color: cadetblue;
+}
+
+#addFriend, #removeFriend {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    display: block;
+}
