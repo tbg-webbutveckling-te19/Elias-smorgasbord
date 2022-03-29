@@ -1,0 +1,20 @@
+body {
+    background-color: skyblue;
+}
+
+#addFlex {
+    display: flex;
+    flex-direction: row;
+}
+
+#setCap {
+    width: 30px;
+}
+
+#p1, .p2 {
+    width: 70px;
+}
+
+#reset {
+    width: 50px;
+}

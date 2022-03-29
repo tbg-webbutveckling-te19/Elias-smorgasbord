@@ -54,17 +54,69 @@ movies.forEach(function(movies){
 
 })
 
+var div = document.getElementById("animals");
+var animalBtn = document.getElementsByClassName("animalBtn");
+var aDog = document.getElementById("audioDog");
+var aCat = document.getElementById("audioCat");
+var aWolf = document.getElementById("audioWolf");
+var aCow = document.getElementById("audioCow");
+
+
+
+// var animalSound = {
+//     dog:'Woof',
+//     cat:'mjau',
+//     wolf: 'aoo',
+//     cow: 'moo',
+// }
 
 var animalSound = {
-    dog:'Woof',
-    cat:'mjau',
-    wolf: 'aoo',
-    cow: 'moo',
+    dog: function() {
+        div.innerHTML = "Woof";
+        aDog.play();
+    },
+
+    cat: function() {
+        div.innerHTML = "Meow";
+        aCat.play();
+
+    },
+    wolf: function() {
+        div.innerHTML = "Aouu";
+        aWolf.play();
+    },
+    cow: function() {
+        div.innerHTML = "Muuu";
+        aCow.play();
+    },
 }
 
-animalSounds = document.getElementById('animalSounds');
+for(var i = 0; i < animalBtn.length; i++) {
+    animalBtn[i].addEventListener("click", function() {
+        switch(this.innerHTML) {
+            case 'Dog': {
+                animalSound.dog();
+                break;
+            }
+            case 'Cat': {
+                animalSound.cat();
+                break;
+            }
+            case 'Wolf': {
+                animalSound.wolf();
+                break;
+            }
+            case 'Cow': {
+                animalSound.cow();
+                break;
+            }
+        }
+    })
+}
 
-animalSounds.innerHTML += `<br> Dog ${animalSound.dog} <br> Cat ${animalSound.cat} <br> Wolf ${animalSound.wolf} <br> Cow ${animalSound.cow} <br>`
+// animalSounds = document.getElementById('animalSounds');
+
+// animalSounds.innerHTML += `<br> Dog ${animalSound.dog} <br> Cat ${animalSound.cat} <br> Wolf ${animalSound.wolf} <br> Cow ${animalSound.cow} <br>`
 
 
 
@@ -72,6 +124,7 @@ addFriend = document.getElementById("addFriend");
 removeFriend = document.getElementById("removeFriend");
 
 var friends = ['John Doe', 'Craig Johnson', 'Jimmy Smith'];
+
 
 var friendModule = [
 
@@ -97,3 +150,5 @@ removeFriend.addEventListener("keydown", function(e) {
         friends.shift(removeFriend.value);
     }
 });
+
+
