@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+body {
+    background-color: #2A3340;
+    background-image: url(../images/medieval_background.jpg);
+    background-size: 100% 120%;
+    overflow: hidden;
+}
+#health {
+    font-size: 30px;
+    color:#73261F;
+    text-align: center;
+}
+#mana {
+    font-size: 30px;
+    text-align: center;
+    color: #50768D;
+    text-decoration: wavy;
+}
+#imgfireWizard {
+    width: 20%;
+    margin: auto;
+    
+}
+
+.heroContainer {
+    flex-direction: column;
+    align-items: center;
+}
+
+.styleButton {
+    color: white;
+    background-color: #314010;
+    height: 50px;
+}
+
+.buttonContainer {
+    width: 50%;
+    border: 2px solid #314010;
+    margin-top: 10px;
+}
+
+.buttonContainer button {
+    flex: 1;
+}
+
+
+.addflex {
+    display: flex;
+}
+
+#retryButton {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hiddenSection {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    font-size: 15px;
+}
+.gameOver {
+    opacity: 100;
+    height: 50px;
+    width: 50%;
+    background-color: #6A7324;
+    color: white;
+    text-align: center;
+    animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.dead {
+    animation: youareDead forwards 2s;
+    animation-delay: 0.5s;
+}
+
+@keyframes youareDead {
+    0% {
+        width: 20%;
+        transform: rotateX(0deg);
+    }
+    15% {width: 15%;}
+    50% {width: 7%;}
+    80% {width: 2%;}
+    100% {
+        width: 0%; 
+        transform: rotateX(180deg);
+    }
+}
+
+.bgStretch {
+    animation: stretchBg forwards 2s;
+    animation-delay: 0.5s;
+}
+
+@keyframes stretchBg {
+    0% {background-size: 100% 120%;}
+    100% {background-size: 100% 150%;}
+}
+
+
+
+#healthBar {
+    accent-color: #73261F;
+}
+
+.healthStyle {
+    color: #73261F;
+}
+
+.manaStyle {
+    color: #577C8F;
+}
+
+#manaBar {
+    accent-color: #577C8F;
+    margin-bottom: 40px;
+}
+
+
+

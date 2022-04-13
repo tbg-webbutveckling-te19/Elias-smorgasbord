@@ -25,7 +25,7 @@ p1.addEventListener("click", function() {
     if(scoreP1 == setCap.value) {
         p1Score.style.color = "green";
         win.innerHTML = `Player 1 Won! <br>To play again press reset</br>`;
-    } 
+    }
 })
 
 

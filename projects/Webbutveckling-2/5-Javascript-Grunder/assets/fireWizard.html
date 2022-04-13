@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FireWizard</title>
+    <link rel="stylesheet" href="css/fireWizard.css">
+</head>
+<body>
+    <section class="heroContainer addflex">
+    <!-- <label for="healthBar" class="healthStyle">Health</label> -->
+    <!-- <label for="manaBar" class="manaStyle">Mana</label> -->
+    <p id="health">Health: 100</p>
+    <progress id="healthBar" value="100" min="0" max="100"></progress>
+    <p id="mana">Mana: 50</p>
+    <progress id="manaBar" value="50" min="0" max="150"></progress>
+    <img id="imgfireWizard" src="images/fire_wizard_by_glowner4_d9xitbi-fullview.png" alt="FireWizard">
+    <div class="buttonContainer addflex">
+        <button class="styleButton" id="damage">DAMAGE TAKEN!</button>
+        <button class="styleButton" id="manaPotion">FOUND A MANA POTION</button>
+        <button class="styleButton" id="spell">CAST DEVASTATING SPELL</button>
+    </div>
+    <section class="hiddenSection">
+        <p>You are dead.<span id="retryButton">Try again?</span></p>
+    </section>
+    </section>
+
+    <script src="js/9-fireWizard.js"></script>
+</body>
+</html>
