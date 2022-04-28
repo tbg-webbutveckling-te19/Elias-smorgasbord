@@ -15,7 +15,7 @@ bg.addEventListener("keydown", function(e) {
     if(e.key === "d" || e.key == "D") {
         hiddenSection.classList.add("showDate");
         var d = new Date();
-        hiddenSection.innerHTML = `${d.getDay()}/${d.getMonth()}-${d.getFullYear()}`
+        hiddenSection.innerHTML = `${d.getDate()}/${(d.getMonth()) + 1}-${d.getFullYear()}`
     }
     if(e.key == "c" || e.key == "C") {
         hiddenSection.classList.remove("showDate");
