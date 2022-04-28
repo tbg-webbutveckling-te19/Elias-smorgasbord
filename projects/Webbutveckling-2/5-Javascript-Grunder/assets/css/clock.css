@@ -1,0 +1,34 @@
+body {
+    background-color: #014029;
+}
+
+#clock {
+    color: #A1A680;
+    font-size: 105px;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hiddenSection {
+    font-size: 0;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.showDate {
+    color: #A1A680;
+    font-size: 50px;
+}
+
+.addFlex {
+    display: flex;
+}
+
+.info {
+    color: #A1A680;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+}
