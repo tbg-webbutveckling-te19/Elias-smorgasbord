@@ -1,7 +1,9 @@
 body {
-    background-color: skyblue;
+    background-color: cadetblue;
 }
-
+h2 {
+    color: #F3EEE1;
+}
 #addFlex {
     display: flex;
     flex-direction: row;
@@ -17,4 +19,31 @@ body {
 
 #reset {
     width: 50px;
+}
+.win {
+    pointer-events: none;
+}
+
+.addFlex {
+    display: flex;
+}
+
+.bodyContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+
+#scoreCap {
+    color: #F3EEE1;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#p1Score {
+    color:#F3EEE1;
+}
+#p2Score {
+    color: #F3EEE1;
 }

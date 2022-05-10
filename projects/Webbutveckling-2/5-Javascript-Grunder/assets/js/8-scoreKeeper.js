@@ -11,7 +11,7 @@ var win = document.getElementById("win");
 var scoreP1 = 0;
 var scoreP2 = 0;
 setCap.value = 0;
-scoreCap.innerHTML =`Playing to ${setCap.value}`;
+scoreCap.innerHTML =`Playing to: ${setCap.value}`;
 
 p1.addEventListener("click", function() {
     if(setCap.value == 0) {
@@ -20,11 +20,13 @@ p1.addEventListener("click", function() {
         exit();
     }
     scoreP1 += 1;
-    scoreCap.innerHTML = `Playing to ${setCap.value}`;
+    scoreCap.innerHTML = `Playing to: ${setCap.value}`;
     p1Score.innerHTML = `${scoreP1}`;
     if(scoreP1 == setCap.value) {
         p1Score.style.color = "green";
         win.innerHTML = `Player 1 Won! <br>To play again press reset</br>`;
+        p1.classList.add("win");
+        p2.classList.add("win");
     }
 })
 
@@ -37,11 +39,13 @@ p2.addEventListener("click", function() {
         exit();
     }
     scoreP2 += 1;
-    scoreCap.innerHTML = `Playing to ${setCap.value}`;
+    scoreCap.innerHTML = `Playing to: ${setCap.value}`;
     p2Score.innerHTML = `${scoreP2}`;
     if(scoreP2 == setCap.value) {
         p2Score.style.color = "green";
         win.innerHTML = `Player 2 Won! <br>To play again press reset</br>`;
+        p2.classList.add("win");
+        p1.classList.add("win");
     }
     
 })
@@ -56,7 +60,9 @@ function restart() {
     p1Score.innerHTML = "0";
     p2Score.innerHTML = "0";
     win.innerHTML = "";
-    p2Score.style.color = "black";
-    p1Score.style.color = "black";
+    p2Score.style.color = "#F3EEE1";
+    p1Score.style.color = "#F3EEE1";
     scoreCap.innerHTML ="Playing to:"
+    p1.classList.remove("win");
+    p2.classList.remove("win");
 }
