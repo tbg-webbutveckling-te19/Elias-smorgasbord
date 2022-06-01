@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* h1,p {
+    color: white;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#415AA6, #1C2B59);
+}
+
+.startpage {
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    background-color:#415AA6;
+    border-radius: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-size: 150px 150px;
+    background-image: url(../images/logoimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -35px;
+}
+.welcome {
+    margin-top: 50px;
+}
+
+
+.welcome h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+.login {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.username, .password {
+    height: 40px;
+    width: 300px;
+    background-color: #415AA6;
+    border-radius: 25px;
+    outline: none;
+    color: white;
+}
+
+.username {
+    margin-top: 50px;
+}
+
+.username::placeholder,.password::placeholder {
+    color: white;
+    opacity: 60%;
+    text-align: center;
+}
+
+.forgot {
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 70%;
+    justify-content: flex-end;
+    margin-right: 130px;
+    cursor: pointer;
+}
+
+.forgot p {
+    display: inline;
+}
+
+.signinbutton {
+    height: 30px;
+    width: 310px;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.signinbutton a {
+    color: white;
+}
+.signinbutton img {
+    width: 20%;
+}
+
+.create {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    cursor: pointer;
+}
+.createaccount {
+    margin-top: 20px;
+}
+.createaccount p {
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* Reusable classes */
+
+.addflex {
+    display: flex;
+}

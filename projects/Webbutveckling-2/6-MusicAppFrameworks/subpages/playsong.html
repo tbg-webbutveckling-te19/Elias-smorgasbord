@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundly - Start</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/landingpage.css">
+    <link rel="shortcut icon" href="../assets/lib/icons/Icon awesome-wave-square.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/playsong.css">
+</head>
+<body class="addFlex structure">
+    <div class="musicContainer addFlex">
+        <img class="nowPlaying" src="../assets/images/ab67616d0000b2733d92b2ad5af9fbc8637425f0 (1).jfif" alt="">
+    </div>
+    <div class="addFlex playControl">
+        <!-- <button id="play">Play</button> -->
+        <img id="volMin" src="../assets/lib/icons/Icon feather-volume.png" alt="">
+        <progress id="volume" value="0.5" min="0" max="1"></progress>
+        <img id="volAdd" src="../assets/lib/icons/Icon feather-volume-2.png" alt="">
+        <!-- <img src="../assets/lib/icons/Icon awesome-redo.png" id="restart" alt="Restart"> -->
+        <!-- <button id="pause">Pause</button> -->
+    </div>
+    <div class="volumeChange addFlex">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+    </div>
+    <progress id="music" class="musicTimer" value="1" min="0" max="256"></progress>
+    <section class="bar">
+        <div id="movingBar"></div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../assets/js/MusicAppFrameworks.js"></script>
+</body>
+</html>

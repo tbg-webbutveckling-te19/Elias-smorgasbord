@@ -1,0 +1,51 @@
+
+.nowPlaying {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 3px 4px 30px black;
+}
+
+.playControl {
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.structure {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.addFlex {
+    display: flex;
+}
+
+#pause, #play {
+    padding: 8px 15px;
+    background-color: #1C2B59;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+
+#music {
+    width: 300px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.volumeChange {
+    margin-top: 40px;
+    gap: 40px;
+}
+
+#restart {
+    width: 20px;
+    height: 20px;
+}
